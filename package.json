@@ -3,11 +3,13 @@
   "version": "1.0.0",
   "description": "Node.js on Docker",
   "author": "Artur Müller <me@arturmuller.com>",
-  "main": "server.js",
   "scripts": {
-    "start": "node server.js"
+    "start": "next start",
+    "build": "next build"
   },
   "dependencies": {
-    "express": "^4.16.1"
+    "next": "^10.0.7",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1"
   }
 }
